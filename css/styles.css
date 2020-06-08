@@ -177,7 +177,31 @@ a {
     padding-right: .6rem;
     margin: 1rem 0;
   }
+
+
+  /* Footer */
+  .copywright {
+    text-align: center;
+    font-weight: 200;
+    font-size: .8rem;
+  }
   
+  /* About Page */
+
+  #about {
+    padding: 2rem;
+  }
+ 
+   #about img {
+     width: 100%;
+     border-radius: 3%;
+     box-shadow: 0 0 15px -1px rgba(0,0,0,.1);
+     margin: 5rem 0 1rem 0;
+   }
+
+   .about-text {
+     text-align: center;
+   }
 
 
   /* Media Queries */
@@ -198,6 +222,12 @@ a {
     }
     .navbar .menu-icon {
       display: none;
+    }
+
+    /* Hero */
+    .hero {
+      padding: 7rem 2rem 0 2rem !important;
+      text-align: center;
     }
 
     /* Portfolio */
